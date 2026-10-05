@@ -17,11 +17,12 @@
 <ul>
 <li>YouTube 동영상 업로드(youtube.upload): 운영자가 만든 영상과 제목·설명을 호우친 채널에 올리기</li>
 <li>YouTube 계정 보기(youtube.readonly): 올바른 채널에 연결됐는지 확인하고, 호우친 채널 영상의 제목·공개 상태·길이와 통계(조회수, 좋아요 수, 댓글 수, 평균 시청 시간·평균 시청 비율)를 읽기</li>
+<li>YouTube 계정 관리(youtube): 발행판으로 올린 호우친 영상의 공개 범위를 운영자가 확인한 뒤 '일부 공개'에서 '공개'로 바꾸기. 다른 설정이나 다른 영상은 바꾸지 않습니다.</li>
 </ul>
 <p>다른 사람의 개인정보(시청자 정보, 연락처, 시청 기록, 댓글 내용 등)는 수집하지 않습니다.</p>
 
 <h2>4. 사용 목적</h2>
-<p>받은 권한과 정보는 (1) 호우친 채널에 영상 올리기, (2) 호우친 내부의 주간 성과 정리(어떤 영상이 반응이 좋았는지 보고 다음 기획에 반영)에만 사용합니다. 광고, 프로필 작성, 판매 등 다른 목적에는 사용하지 않습니다.</p>
+<p>받은 권한과 정보는 (1) 호우친 채널에 영상 올리고 공개 범위 바꾸기, (2) 호우친 내부의 주간 성과 정리(어떤 영상이 반응이 좋았는지 보고 다음 기획에 반영)에만 사용합니다. 광고, 프로필 작성, 판매 등 다른 목적에는 사용하지 않습니다.</p>
 
 <h2>5. 보관 기간과 제3자 제공</h2>
 <ul>
@@ -46,8 +47,8 @@
 <div lang="en">
 <p>HouchinPublisher ("the tool") is an internal publishing tool operated by Honam Right Friends (Houchin, "the operator"). It is used only for Houchin's own official accounts. It has no public sign-up, and its dashboard is reachable only from the operator's devices.</p>
 <p><b>YouTube API Services.</b> The tool uses YouTube API Services. By using the tool, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See also the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
-<p><b>What we access.</b> Through Google OAuth the tool requests only <code>youtube.upload</code> (to upload Houchin's own videos, with titles and descriptions, to Houchin's YouTube channel) and <code>youtube.readonly</code> (to confirm the connected channel and to read Houchin's own videos' titles, privacy status, duration and statistics: views, likes, comment counts, average view duration and average view percentage). No data about other people (viewers, contacts, watch history, comment text) is collected.</p>
-<p><b>How we use it.</b> Only to (1) upload Houchin's videos and (2) prepare Houchin's internal weekly performance notes. Not used for advertising, profiling or sale.</p>
+<p><b>What we access.</b> Through Google OAuth the tool requests only these permissions: <code>youtube.upload</code> (to upload Houchin's own videos, with titles and descriptions, to Houchin's YouTube channel), <code>youtube</code> (only to change the privacy status of videos uploaded by the tool from unlisted to public after the operator has checked them) and <code>youtube.readonly</code> (to confirm the connected channel and to read Houchin's own videos' titles, privacy status, duration and statistics: views, likes, comment counts, average view duration and average view percentage). No data about other people (viewers, contacts, watch history, comment text) is collected.</p>
+<p><b>How we use it.</b> Only to (1) upload Houchin's videos and set their privacy status and (2) prepare Houchin's internal weekly performance notes. Not used for advertising, profiling or sale.</p>
 <p><b>Storage and sharing.</b> Access tokens are stored only on the operator's computer while authorization is in effect. Channel statistics are stored on the operator's computer and internal notes, refreshed weekly, and authorization is re-checked at least every 30 days. Other API data such as video titles is deleted or refreshed after 30 days. Data is not sold or shared with third parties. Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 <p><b>Cookies.</b> The tool stores one cookie in the operator's browser to keep the operator signed in. This public information page uses no cookies.</p>
 <p><b>Revocation and deletion.</b> Access can be revoked at any time on the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>. After revocation the tool stops accessing the channel and deletes stored YouTube data within 7 days. For deletion requests or privacy questions, contact official@houchin123.com.</p>
